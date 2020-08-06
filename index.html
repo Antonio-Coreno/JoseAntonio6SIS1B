@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/estilos.css">  
+    </head>
+    <body>
+<div>
+            <h1>Registro de alumnos </h1>
+            <form action="Guardaralumno" name="formulario" method="get" >
+                <table border="1" >
+                    <tr> <td>Nombre: </td> <td> <input type="text" name="nombre" > </td> </tr>
+                    <tr> <td>Password: </td> <td> <input type="password" name="password" > </td> </tr>
+                    <tr> <td>Email: </td> <td> <input type="email" name="email" > </td> </tr>
+                    <tr> <td>Pais: </td> <td> 
+                            <select name="pais" style="width:150px" >
+                                <option>Estados Unidos</option>
+                                <option>México</option>
+                                <option>Guatemala</option>
+                                <option>España</option>
+                                <option>Francia</option>
+                            </select>
+                        </td> </tr>
+                    <tr> <td colspan="2" > <input type="submit" value="Guardar Datos" > </td> </tr>
+                    
+                </table>
+            </form>
+        </div>
+        <div>
+            <a href="ConsultarAlumnos">Consultar Lista de Alumnos</a>
+        </div>
+    </body>
+</html>
